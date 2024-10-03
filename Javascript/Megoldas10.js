@@ -4,12 +4,12 @@ function feladat10(){
         let sor = "";
         for(let j = 1; j <= negyzet; j++){
             if(i == j){
-                sor += "%";
+                sor += " %";
             } else if(i == 1 || i == negyzet || j == 1 || j == negyzet){
-                sor += "%";
+                sor += " %";
 
             } else {
-                sor += " ";
+                sor += "  ";
             }     
         
         }
